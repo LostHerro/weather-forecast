@@ -15,7 +15,9 @@ for forecast in detailed_forecast:
         forecast.find(class_ = "forecast-label").get_text()
         + ": " + forecast.find(class_ = "forecast-text").get_text())
 
-print(" 7 Day Forecast ")
-print("----------------") 
+print("------------------") 
+print("| 7 Day Forecast |")
+print("------------------") 
+
 for text_forecast in forecasts:
     print(text_forecast)
